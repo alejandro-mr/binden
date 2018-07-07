@@ -1,0 +1,31 @@
+{
+  "vendors": [
+    {
+      "id": 1,
+      "name": "Ovandos mariconadas",
+      "description": "pinches mariconadas para ir a una fiesta bien vestido, o una pinche boda, que hueva, ando bien agusto con unas cheves encima y me vale verga lo que diga este texto. PUTOS TODOS",
+      "category": "Vestidos y Trajes",
+      "image": "http://via.placeholder.com/400x250",
+      "createdAt": "2017-10-21T13:28:06.419Z",
+      "sponsored": false
+    },
+    {
+      "id": 25,
+      "name": "La otra tienda de flores",
+      "description": "pinches mariconadas para ir a una fiesta bien vestido, o una pinche boda, que hueva, ando bien agusto con unas cheves encima y me vale verga lo que diga este texto. PUTOS TODOS",
+      "category": "Florerias y Regalos",
+      "image": "http://via.placeholder.com/400x250",
+      "createdAt": "2018-01-21T13:28:06.419Z",
+      "sponsored": false
+    },
+    {
+      "id": 362,
+      "name": "Me vale verga",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Pharetra sit amet aliquam id diam maecenas ultricies. Aliquam malesuada bibendum arcu vitae. Amet mauris commodo quis imperdiet. Nam at lectus urna duis convallis. At risus viverra adipiscing at in tellus. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Urna porttitor rhoncus dolor purus non enim praesent elementum. Est sit amet facilisis magna etiam tempor orci. Porttitor rhoncus dolor purus non enim praesent. Dictum fusce ut placerat orci nulla pellentesque. Morbi tristique senectus et netus et malesuada fames ac turpis. Ut sem viverra aliquet eget sit. Scelerisque felis imperdiet proin fermentum leo vel orci. Nisl condimentum id venenatis a condimentum vitae sapien.\\n\\nLorem ipsum dolor sit amet consectetur adipiscing elit ut aliquam. Malesuada pellentesque elit eget gravida. Placerat in egestas erat imperdiet sed euismod nisi porta. Ultrices sagittis orci a scelerisque purus semper eget. Arcu non odio euismod lacinia at. Ultrices neque ornare aenean euismod elementum nisi. Mi bibendum neque egestas congue quisque egestas diam in arcu. Purus gravida quis blandit turpis cursus in hac.",
+      "category": "Cosas que me valen",
+      "image": "http://via.placeholder.com/400x250",
+      "createdAt": "2013-10-21T13:28:06.419Z",
+      "sponsored": true
+    }
+  ]
+}
