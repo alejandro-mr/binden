@@ -28,7 +28,7 @@ class Menu extends Component {
     return (
       <LayoutContext.Consumer>
         {layout => (
-          <nav role="navigation" className="grid-x grid-margin-x align-center">
+          <nav role="navigation" className="grid-x align-center">
             <div className={'cell ' + (!layout.withHero ? 'large-9' : '')}>
               <div className="collapse hide-for-medium">
                 <button className={'toggler ' + (!isMenuHidden ? 'collapsed' : '')} type="button" data-toggle="menu" onClick={this.toggle}>
@@ -257,7 +257,8 @@ nav {
       -1px 1px 1px #041934,
       1px 1px 1px #041934;
 */
-    text-shadow: 0 -1px 0 #041934;
+    //text-shadow: 0 -1px 0 #041934;
+    text-shadow: -1px 0px 2px #311f1f;
   }
 
   .logo {
@@ -269,6 +270,8 @@ nav {
     font-size: 1.0625rem;
 
     line-height: 2.1875rem;
+
+    text-shadow: 1px 1px 0px #35302cab;
   }
 
   .menu .call-to-action a {
