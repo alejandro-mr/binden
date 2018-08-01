@@ -1,5 +1,5 @@
-import { searchVendors } from './vendors'
+import vendors from './vendors'
 
 export default {
-  searchVendors
+  ...vendors
 }

@@ -41,7 +41,7 @@ const Hero = ({ lead, children }) => (
           padding-bottom: 1rem;
         }
       }
-      `}</style>
+    `}</style>
   </div>
 )
 
