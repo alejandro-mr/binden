@@ -4,12 +4,12 @@ import CategoryTile from './CategoryTile';
 const Categories = (props) => (
   <div className="grid-container">
     <div className="grid-x grid-margin-x small-up-1 large-up-3 main-categories">
-      <CategoryTile image="/static/wedding_category.jpg" title="Bodas" />
-      <CategoryTile image="/static/xv_category.jpg" title="XY" />
-      <CategoryTile image="/static/pinata_category_tmp.jpg" title="Fiestas infantiles" />
-      <CategoryTile image="/static/baptism_category.jpg" title="Bautizos" />
-      <CategoryTile image="" title="Baby shower" />
-      <CategoryTile image="" title="Salones de eventos" />
+      <CategoryTile url="/about" image="/static/wedding_category.jpg" title="Bodas" />
+      <CategoryTile url="/" image="/static/xv_category.jpg" title="XY" />
+      <CategoryTile url="/about" image="/static/pinata_category_tmp.jpg" title="Fiestas infantiles" />
+      <CategoryTile url="/" image="/static/baptism_category.jpg" title="Bautizos" />
+      <CategoryTile url="/about" image="" title="Baby shower" />
+      <CategoryTile url="/" image="" title="Salones de eventos" />
     </div>
 
     <style jsx>{`

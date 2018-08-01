@@ -246,6 +246,7 @@ class Menu extends Component {
               */
                   //text-shadow: 0 -1px 0 #041934;
                   text-shadow: -1px 0px 2px #311f1f;
+                  ${ !layout.withHero && 'text-shadow: none;'}
                 }
 
                 .logo {
@@ -254,12 +255,13 @@ class Menu extends Component {
 
                 .menu li a {
                   /*color: rgb(150, 27, 75);*/
-                  color: rgb(255, 255, 255);
+                  color: ${ layout.withHero ? 'rgb(255, 255, 255)' : 'rgb(117, 34, 76)'};
                   font-size: 1.0625rem;
 
                   line-height: 2.1875rem;
 
                   text-shadow: 1px 1px 0px #35302cab;
+                  ${!layout.withHero && 'text-shadow: none;'}
                 }
 
                 .menu .call-to-action a {

@@ -1,7 +1,7 @@
 import Link from 'next/link'
 
-const CategoryTile = ({title, image}) =>(
-  <Link prefetch href="/about">
+const CategoryTile = ({title, image, url}) =>(
+  <Link prefetch href={url}>
     <a className="cell text-center category-tile">
       <div className="overlay"></div>
       <div className="category-title">
