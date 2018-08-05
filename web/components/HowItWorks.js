@@ -17,22 +17,22 @@ const HowItWorks = () => (
         <h2>Paso 3:</h2>
         <img src="data:image/png;base64,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" />
         <p>Contacta a tus proveedores favoritos</p>
-    </div>
-    <p>
-    Para que tu evento sea exitoso, debes planificar cada detalle.
+      </div>
+      <p className="container">
+        Para que tu evento sea exitoso, debes planificar cada detalle.
 
-  Lo primero que debes hacer, es elegir la fecha de tu evento y calcular el número de invitados que asistirán para calcular el presupuesto que emplearas.
+        Lo primero que debes hacer, es elegir la fecha de tu evento y calcular el número de invitados que asistirán para calcular el presupuesto que emplearas.
 
-  Aparta el salón, la música y el fotógrafo.
+        Aparta el salón, la música y el fotógrafo.
 
-  Elige los alimentos que les darás a tus invitados y la decoración que quieres para ellos.
+        Elige los alimentos que les darás a tus invitados y la decoración que quieres para ellos.
 
-  Que las prisas no te tomen por sorpresa, recuerda entregar las invitaciones 15 días antes para que tus invitados se programen.
+        Que las prisas no te tomen por sorpresa, recuerda entregar las invitaciones 15 días antes para que tus invitados se programen.
 
-  Ese día debes verte bellísima, así que no olvides seleccionar tu vestido, accesorios, peinado y maquillaje.
+        Ese día debes verte bellísima, así que no olvides seleccionar tu vestido, accesorios, peinado y maquillaje.
 
-  Y lo más importante de todo… disfruta cada detalle, aun cuando este no haya sido planificado, vive y ama cada momento. Al final, será lo más bello.
-    </p>
+        Y lo más importante de todo… disfruta cada detalle, aun cuando este no haya sido planificado, vive y ama cada momento. Al final, será lo más bello.
+      </p>
     </div>
 
     <style jsx>{`

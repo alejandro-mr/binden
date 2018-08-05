@@ -14,8 +14,8 @@ const Hero = ({ lead, children }) => (
         background-image: linear-gradient(
           rgba(0, 0, 0, 0.2),
           rgba(0, 0, 0, 0.2)
-        ), url('../static/hero.jpg');
-        background-position: center center;
+        ), url('../static/main.jpg');
+        background-position: center top;
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 18rem;
@@ -29,13 +29,13 @@ const Hero = ({ lead, children }) => (
         font-size: 1.5rem;
         padding-bottom: 1rem;
         text-align: center;
-        text-shadow: 0 2px 2px #383838;
+        text-shadow: 0 2px 2px #171717;
       }
 
       @media screen and (min-width: 64em) {
         .hero {
           height: 27rem;
-          margin-top: -5.4375rem;
+          margin-top: -6.875rem;
           max-height: 27rem;
           padding-top: 12.4375rem;
           padding-bottom: 1rem;

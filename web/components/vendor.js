@@ -34,7 +34,7 @@ const Vendor = ({ id, image, name, description, category }) => (
       }
       .vendor h4 {
         color: rgb(64, 24, 41);
-        font-size: 1.25rem;
+        font-size: 1.125rem;
         font-weight: 600;
       }
       .vendor .category {
@@ -42,7 +42,11 @@ const Vendor = ({ id, image, name, description, category }) => (
         font-size: .875rem;
       }
       .vendor p {
-        font-size: 1rem;
+        font-size: .875rem;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
       }
       `}</style>
   </div>

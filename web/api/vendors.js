@@ -6,4 +6,4 @@ const vendors = {
   searchVendors: (query) => fetch(`${RESOURCE_URL}?q=${query}`)
 }
 
-export default vendors;
+export default vendors

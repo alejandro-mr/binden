@@ -25,6 +25,10 @@ const Search = withRouter((props) => (
               </li>
             </ul>
           </nav>
+          <h3>Proveedores de algo</h3>
+          <div>
+            <span>25 Resultados</span>
+          </div>
         </div>
       </div>
       <div className="grid-x grid-margin-x">

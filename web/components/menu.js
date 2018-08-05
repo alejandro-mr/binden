@@ -250,7 +250,8 @@ class Menu extends Component {
                 }
 
                 .logo {
-                  font-size: 2.1875rem
+                  font-size: 3.125rem;
+                  text-shadow: none;
                 }
 
                 .menu li a {
@@ -269,7 +270,7 @@ class Menu extends Component {
                   line-height: 2.1875rem;
                 }
               }
-            `}</style>
+              `}</style>
           </nav>
         )}
       </LayoutContext.Consumer>
