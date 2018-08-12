@@ -1,0 +1,17 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "author": "Alejandro Moreno<jose.alejandro.mr@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn build-firebase && cd \"./app\" && yarn && yarn dev",
+    "preserve": "yarn build",
+    "serve": "firebase serve",
+    "predeploy": "yarn build",
+    "deploy": "firebase deploy",
+    "install": "yarn build",
+    "build": "yarn build-next && yarn build-firebase",
+    "build-next": "cd \"./app\" && yarn && yarn build",
+    "build-firebase": "cd \"./functions\" && yarn"
+  }
+}
